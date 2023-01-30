@@ -1,2 +1,3 @@
-# govnl_project
+# GovNL Project
+
 GovNL Drupal Composer Project

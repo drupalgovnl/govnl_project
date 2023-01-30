@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="govnl">
+  <description>PHP CodeSniffer configuration for GovNL.</description>
+
+  <arg name="extensions" value="inc,install,module,php,profile,test,theme,yml"/>
+  <config name="drupal_core_version" value="10"/>
+
+  <file>web/modules/contrib/</file>
+  <file>web/profiles/contrib/govnl/</file>
+  <!-- Exclude 3rd party code -->
+  <exclude-pattern>web\/modules\/contrib\/(?!govnl.*)</exclude-pattern>
+  <rule ref="./vendor/drupal/coder/coder_sniffer/Drupal"/>
+  <rule ref="./vendor/drupal/coder/coder_sniffer/DrupalPractice"/>
+
+</ruleset>
