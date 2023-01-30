@@ -2,7 +2,7 @@
   "name": "drupalgovnl/govnl-project",
   "description": "Project template for GovNL Drupal distribution.",
   "type": "project",
-  "license": "EUPL 1.2",
+  "license": "EUPL-1.2",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
